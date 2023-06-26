@@ -10,3 +10,15 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 It is Eray Dura's Blog there is about me, blogs/projects, and contact me
 
+How To Run downloaded Laravel Projects From GITHUB on localhost XAMPP 
+
+STEPS:
+download zip file or clone the project
+cd laravel-starter
+cp .env.example .env
+open .env and update DB_DATABASE (database details)
+run : composer install
+run : php artisan key:generate
+run : php artisan migrate:fresh --seed
+run : php artisan serve
+
